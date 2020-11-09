@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css"/>
+
+    <title>Ogatis weatherapp</title>
+</head>
+<body>
+    <div class="container">
+			<h3>Hello Weather</h3>
+      
+        <form class="input">
+            <div class="row">
+                <div id="search-input"class="col-sm-5">
+									
+                    <input type="search" placeholder="type your city" id="city-input"
+                    autocomplete="off";
+								/>
+					
+                </div>
+            <div id="typecity"class="col-sm-4">
+                <input type="submit" value="search" class="btn btn-primary w-100"/>
+            </div>
+        </div>
+        </form>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="city">Esslingen</div>
+                <div class="date">Sunday 16:00</div>
+                <div class="description">Sunny</div>
+                <div>
+                    <img class="icon" src="https://www.flaticon.com/svg/static/icons/svg/66/66275.svg"/>
+                </div>
+                <div class="temperature" ><span> 74 °F |°C</span></div>
+            </div>
+
+            <div class="col-6">
+                <ul>
+                    <li>
+                        Humidity: 50%
+                    </li>
+                    <li>
+                        Wind: 15 km/h
+                       
+                    </li>
+                </ul>
+
+            </div>
+       
+    </div>
+    
+<script src="src/index.js"></script>
+</body>
+</html>
