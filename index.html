@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,10 +11,16 @@
     <link rel="stylesheet" href="src/styles.css"/>
 
     <title>Ogatis weatherapp</title>
+    <style>
+        
+        
+    </style>
+
 </head>
 <body>
     <div class="container">
-        <div class="weatherapp-wrapper">
+        <div class="weather-wrapper">
+            
 			<h3>Hello Weather</h3>
       
         <form class="input search-button" class="mb-3" >
@@ -34,27 +40,32 @@
 
         <div class="row">
             <div class="col-6">
-                <div class="city">Esslingen</div>
-                <div class="date">Sunday 16:00</div>
+            
+                <div class="city"><strong>Esslingen</strong></div>
+                <div class="date"><strong> 16:00</strong></div>
                 <div class="description">Sunny</div>
                 <div>
                     <img class="icon" src="https://www.flaticon.com/svg/static/icons/svg/66/66275.svg"/>
                 </div>
                 <div class="temperature" ><span> 74 °F |°C</span></div>
             </div>
+        
 
-            <div class="col-6">
-                <ul>
-                    <li>
-                        Humidity: 50%
-                    </li>
-                    <li>
-                        Wind: 15 km/h
-                       
-                    </li>
-                </ul>
-
+                <div class="col">
+                    <div class="float-right">
+                     <ul>
+                        <li>
+                        <strong>Humidity:</strong> 50%
+                        </li>
+                        <li>
+                        <strong>Wind:</strong> 15 km/h
+                        </div>  
+                        </li>
+                    </ul>
+                </div>
             </div>
+            
+            
         </div>
     </div>
     
