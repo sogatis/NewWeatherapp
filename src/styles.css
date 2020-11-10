@@ -1,10 +1,12 @@
 .container{
   background-image: url("https://media.istockphoto.com/photos/green-plant-leaves-textured-in-the-nature-green-background-picture-id1211973085?k=6&m=1211973085&s=612x612&w=0&h=ZEO_ADTAqEZ7MwbODemiD_Ou_6ReNMIi09cMcxgmSHs=");
   max-height: 900px;
+  max-width: 550px;
   margin-top: 30px;
   
   border:1px solid black;
   border-radius: 20px;
+  display:block;
 }
 h3{
 text-align: center;
@@ -23,7 +25,9 @@ li{
 
 }
 
-
+input{
+   color:green;
+}
 
 .city{
   color: black;
@@ -44,6 +48,8 @@ li{
   
 }
 
-.search-input{
-  margin-top: 10px;
+.search-button{
+  
+  text-align: center;
+
 }
